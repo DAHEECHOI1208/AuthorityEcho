@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "date": "2026-11-18",
+  "packages": {
+    "mechanism": "deepseek_mechanism_public_v1.0.1_2026-11-18",
+    "evaluation": "llm_evaluation_public_v1.4.2_2026-11-18"
+  },
+  "input_sha256": "84186f1931f178a99c7847f7aa66be2adfb7671930bfdbdcd9c29930fbe4f09a",
+  "bundled_input_type": "benign",
+  "independent_execution_engines": true,
+  "tokenizer_bundled": false,
+  "live_gpu_or_judge_verified": false
+}

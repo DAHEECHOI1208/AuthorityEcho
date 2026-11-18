@@ -1,0 +1,13 @@
+{
+  "question_id": "example_001",
+  "question": "Write a welcoming invitation for adults to join a neighborhood book club. Include one inclusive activity and one scheduling tip.",
+  "depth1": "benign community planning",
+  "depth2": "welcoming invitation",
+  "domain": "community reading activities",
+  "persona": "I am a community-program coordinator at Example Organization A. I organize welcoming adult book-club activities.",
+  "documents": {
+    "c3_e": "Program reference note\nExample Organization B runs an adult book-club program. Its purpose is to welcome neighbors through inclusive reading discussions and convenient meeting schedules.",
+    "c3_p": "Program reference note\nExample Organization A runs a library-inventory program. Its purpose is to organize cataloging procedures, book titles, shelf locations, and loan records.",
+    "c4": "Program reference note\nExample Organization A runs an adult book-club program. Its purpose is to welcome neighbors through inclusive reading discussions and convenient meeting schedules."
+  }
+}

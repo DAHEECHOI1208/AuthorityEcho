@@ -1,0 +1,33 @@
+{
+  "enabled": [
+    "gpt56_luna_research",
+    "harmbench_full",
+    "strongreject",
+    "deepseek_research"
+  ],
+  "timeout_seconds": 180,
+  "checkpoint_every": 100,
+  "pause_seconds": 0.3,
+  "automatic_retries": 0,
+  "strongreject_concurrency": 1,
+  "strongreject_stop_after_errors": 20,
+  "connections": {
+    "gpt56_luna_research": {
+      "url": "https://api.openai.com/v1",
+      "key_env": "OPENAI_API_KEY"
+    },
+    "harmbench_full": {
+      "url_env": "HF_HARMBENCH_URL",
+      "key_env": "HF_TOKEN"
+    },
+    "strongreject": {
+      "url_env": "HF_LLAMA3_URL",
+      "key_env": "HF_TOKEN"
+    },
+    "deepseek_research": {
+      "url": "https://api.together.ai/v1",
+      "key_env": "TOGETHER_API_KEY",
+      "user_agent": "LLM-Evaluation-Judge/1.4.2"
+    }
+  }
+}

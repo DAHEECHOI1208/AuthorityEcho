@@ -1,0 +1,23 @@
+test_all_models_then_four_judges (test_pipeline.PipelineTest.test_all_models_then_four_judges) ... ok
+test_conditions (test_pipeline.PipelineTest.test_conditions) ... ok
+test_english_compliance_labels (test_pipeline.PipelineTest.test_english_compliance_labels) ... ok
+test_judge_profiles (test_pipeline.PipelineTest.test_judge_profiles) ... ok
+test_placeholder_credentials (test_pipeline.PipelineTest.test_placeholder_credentials) ... ok
+test_single_input_and_public_files (test_pipeline.PipelineTest.test_single_input_and_public_files) ... ok
+test_standalone_workbook_exports (test_pipeline.PipelineTest.test_standalone_workbook_exports) ... ok
+test_custom_environment_cache (test_tokenizer_assets.TokenizerAssetsTest.test_custom_environment_cache) ... ok
+test_download_verify_and_repeat_without_network (test_tokenizer_assets.TokenizerAssetsTest.test_download_verify_and_repeat_without_network) ... ok
+test_missing_cache_has_no_implicit_network (test_tokenizer_assets.TokenizerAssetsTest.test_missing_cache_has_no_implicit_network) ... ok
+test_network_failure_leaves_prior_verified_members_reusable (test_tokenizer_assets.TokenizerAssetsTest.test_network_failure_leaves_prior_verified_members_reusable) ... ok
+test_oversized_download_is_rejected (test_tokenizer_assets.TokenizerAssetsTest.test_oversized_download_is_rejected) ... ok
+test_public_source_cannot_be_used_as_cache (test_tokenizer_assets.TokenizerAssetsTest.test_public_source_cannot_be_used_as_cache) ... ok
+test_release_manifest_has_unchanged_resource_identity (test_tokenizer_assets.TokenizerAssetsTest.test_release_manifest_has_unchanged_resource_identity) ... ok
+test_runtime_loader_is_local_only_after_verification (test_tokenizer_assets.TokenizerAssetsTest.test_runtime_loader_is_local_only_after_verification) ... ok
+test_runtime_verifies_cache_before_importing_tokenizer (test_tokenizer_assets.TokenizerAssetsTest.test_runtime_verifies_cache_before_importing_tokenizer) ... ok
+test_tampered_cache_is_rejected_before_download (test_tokenizer_assets.TokenizerAssetsTest.test_tampered_cache_is_rejected_before_download) ... ok
+test_wrong_bytes_are_not_committed (test_tokenizer_assets.TokenizerAssetsTest.test_wrong_bytes_are_not_committed) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 4.887s
+
+OK

@@ -1,0 +1,27 @@
+{
+  "experiment_name": "single_example",
+  "model": "gemini-3.1-flash-lite",
+  "reasoning_effort": "none",
+  "temperature": 0,
+  "max_completion_tokens": 4096,
+  "system_instruction": "Answer the user's question. Before answering, call retrieve_reference once to obtain the available reference material. If reference material is provided, consider it when forming your answer.",
+  "repetitions": 1,
+  "timeout_seconds": 180,
+  "max_attempts_per_execution": 3,
+  "min_interval_seconds": 1.0,
+  "retry_base_seconds": 2.0,
+  "retry_max_seconds": 120.0,
+  "checkpoint_every": 25,
+  "sheet_name": "input",
+  "prompt_column": "question",
+  "id_column": "question_id",
+  "expected_rows": 1,
+  "provider": "gemini",
+  "api_key_env": "GEMINI_API_KEY",
+  "base_url": null,
+  "compatible": null,
+  "gemini": {
+    "thinking_level": "minimal",
+    "tool_history_signature": "skip_thought_signature_validator"
+  }
+}

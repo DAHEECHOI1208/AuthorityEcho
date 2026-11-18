@@ -1,0 +1,13 @@
+{
+  "version": "1.0.1",
+  "tests_run": 62,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "elapsed_seconds": 22.18,
+  "command": "python -B -m unittest discover -s tests -v",
+  "gpu_inference_executed": false,
+  "judge_api_calls_executed": 0,
+  "mock_results_are_not_scientific_results": true
+}

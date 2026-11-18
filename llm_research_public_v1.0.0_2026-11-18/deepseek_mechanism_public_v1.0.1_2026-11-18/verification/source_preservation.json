@@ -1,0 +1,488 @@
+{
+  "comparison": "parent uploaded archives versus this content-only release",
+  "byte_identical_checks": [
+    {
+      "package": "mechanism",
+      "file": "mechanism/alert_base.py",
+      "byte_identical": true,
+      "sha256": "404884d25a68b7cba3d0f698fef1c2c4e07e2cb261d4cdb5f7ac9de8241ead76"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/alignment_report.py",
+      "byte_identical": true,
+      "sha256": "c5e2ddf403638e00135e6700016be37fead53cd97d94203f3951adc781110991"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/alignment_statistics.py",
+      "byte_identical": true,
+      "sha256": "e6051b6d6259d36b05f86c74a96d18d0478a4eaac1dac500193178dfc538a561"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/analysis.py",
+      "byte_identical": true,
+      "sha256": "b0f70cd79c13862ecab7bf9940edeb889e98234dad170ce891efabe12ba41988"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/cli.py",
+      "byte_identical": true,
+      "sha256": "3724bc346da3f7d7fed529139e214de801507331d5b26420b73ffcf33663a5e0"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/diagnostics.py",
+      "byte_identical": true,
+      "sha256": "c26f2fed40d0d42a278578f9b6b6ff9406818d4cc427065368fc8f9182805d39"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/directions.py",
+      "byte_identical": true,
+      "sha256": "e50a978189a8c6f42e80999a47a343f79e23519e4cd82dd6ac42e51ab3e2b0a2"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/gates.py",
+      "byte_identical": true,
+      "sha256": "fbde4afe76c0290c59af8ae77ec73dc901ac631f0514c58fe7f719daf9f90411"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/geometry.py",
+      "byte_identical": true,
+      "sha256": "949f9203eabf84b3520e1125adde0ddc23874babc127a243738b2fbfbb7a84f4"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/geometry_base.py",
+      "byte_identical": true,
+      "sha256": "7726c105d28f197e185ec14b7e1f22a99fd7ea7100886af90bb62085f8b43357"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/hooks.py",
+      "byte_identical": true,
+      "sha256": "185880a9c18e0fc3791781c86b377eadaa73f60887e052cb2c07e97ce129d174"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/imports.py",
+      "byte_identical": true,
+      "sha256": "e5b2920c738c804c9e3436d14656f311077351c4db656b31bdb3acc21b090c21"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/inputs.py",
+      "byte_identical": true,
+      "sha256": "53552569b99c14fb31f9b3472cd936b4bb6638798c24c100527b81e4faf96b2f"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/interventions.py",
+      "byte_identical": true,
+      "sha256": "e70ee135179d94a0991a43a55f8a0d5c1353369318aa63629c8e6d41f89da700"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/io.py",
+      "byte_identical": true,
+      "sha256": "0d942c8ab9ede728dbceafbfecd02bc92992c92c6462e945d30045a2955b6cab"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/joint_bootstrap.py",
+      "byte_identical": true,
+      "sha256": "c8d4787f090927fc2178bec16522583639fada9867e27d4c60aec3bc19e1259a"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/judge_transport.py",
+      "byte_identical": true,
+      "sha256": "c43d3670ad5e3cd0610f9debf5e47f99e790ec4dca4bba24a34d8c0247086a1b"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/judging.py",
+      "byte_identical": true,
+      "sha256": "548fd00d91833e507bb985dca66032b2efee5d236df64555cb4ebd6d75e97beb"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/native/A04_runtime.py",
+      "byte_identical": true,
+      "sha256": "affbdd6dcb8986ea121ad2d2e3708b57a5168a8a7bb094d870ff04cb97efbed1"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/native/B10_datasets.py",
+      "byte_identical": true,
+      "sha256": "89dacdd72bea90303b27f9278c58f2b3cbdbb822be22357eeb07c4a221df8ebb"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/native/C10_model.py",
+      "byte_identical": true,
+      "sha256": "9baceae22e9a9b0c70eca5212e2eea3c3467ef451b0d945ce3452c1fe4fe722d"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/native/C11_hooks.py",
+      "byte_identical": true,
+      "sha256": "e8d8ea1da3b993fb359a510e23c333f531420a9dd762100372e08d3eada63732"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/native/C14_ab_capture.py",
+      "byte_identical": true,
+      "sha256": "566cfd1714f45c9c48f514c3b2fe85de8494df9c65852ead5b9436489e47daaf"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/native/C16_backend.py",
+      "byte_identical": true,
+      "sha256": "204fe9096a46472b33696c1d5290e35b64f05bb4eb38a5480c60612e090a9a0e"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/native/F10_activations.py",
+      "byte_identical": true,
+      "sha256": "ded216df5dedbe82b99552c5bd57c39877e068dc704e546f5ec6bdf7a33151dd"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/native/J12_ab_operators.py",
+      "byte_identical": true,
+      "sha256": "d102b1646d5154e38f87952a0a1c6cad6e73daaa415a2655985f480f88c522b0"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/native/P17_final_answer.py",
+      "byte_identical": true,
+      "sha256": "1305c4d83a25317e1838497fd820eae4df099a6f727136238ae2f72ea0a5b59c"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/native/P19_deepseek.py",
+      "byte_identical": true,
+      "sha256": "7c6390e680625f3d1679546dd106c909568ffb19c86ff6e4647bf26f2f9aed17"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/native/P21_deepseek_numeric.py",
+      "byte_identical": true,
+      "sha256": "8836847d73d38665544e295ae0dda8b21206870ca3aa6fcedca3fdc223b1f6d5"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/native/__init__.py",
+      "byte_identical": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/operations.py",
+      "byte_identical": true,
+      "sha256": "c8633f60dadf737f46eaff668ddcd3a57c4d22d467eded770d41bf1aee6251e1"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/output_audit.py",
+      "byte_identical": true,
+      "sha256": "6830686c2dbeb5ceaaafb380dc587cb9d0e4d3576d296b47ca04eb8b7e6d2ff5"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/probes.py",
+      "byte_identical": true,
+      "sha256": "6cf91275ef525f4dc787bb9ec2b8ee388cbd121d89dca34d8579dbf73f4c52fc"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/readouts.py",
+      "byte_identical": true,
+      "sha256": "8b6518449d8a576213a75db69e5c016a73e2e91bf630ba34c3b156df31a63fe3"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/regression.py",
+      "byte_identical": true,
+      "sha256": "871b49706bd69fab26430b259c43006268fcbb901ad94b5a760ec018ffa859fe"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/regression_base.py",
+      "byte_identical": true,
+      "sha256": "7bd119b0b8b0c5d6569eb0d01910c29230905f453b590e614979ebc8e0f7044b"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/representation.py",
+      "byte_identical": true,
+      "sha256": "0c9f02fd217f742d3c51c3787bc19d5c262e020e47a4586beb742dd7b33d404a"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/runtime.py",
+      "byte_identical": true,
+      "sha256": "74ecff85f24e1c72ca6802ea8c6049d5049910f5d60a3dd39bc5ba60ac65ea5f"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/scoring.py",
+      "byte_identical": true,
+      "sha256": "7d2ae1d068aec04a90453affc2fffc4e05013081cea5cebe33916c68f2c96dee"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/statistics_base.py",
+      "byte_identical": true,
+      "sha256": "4811830a557cc186c155c13026cf4892a0cc2395b2e2d271797b53a6c48ed4c2"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/validation_base.py",
+      "byte_identical": true,
+      "sha256": "a2579c3a53eeed873e003ecf2310b50fe3aac864977430cff21d24701c56ac1c"
+    },
+    {
+      "package": "mechanism",
+      "file": "mechanism/workflows.py",
+      "byte_identical": true,
+      "sha256": "77c20ed9bff228b3d168798c10d3818f3fdfbbe5548a5615f5a238a97056e94d"
+    },
+    {
+      "package": "mechanism",
+      "file": "run.py",
+      "byte_identical": true,
+      "sha256": "1a71228e85848f5e93a032426d4b0da4d075c8969deb6f7a97335ae5b9e3c0b5"
+    },
+    {
+      "package": "mechanism",
+      "file": "tests/test_analysis_paths.py",
+      "byte_identical": true,
+      "sha256": "184d547696656d5ab86a6e74aff87d9a64b36be2b22b92b4c15be9c8d2d251df"
+    },
+    {
+      "package": "mechanism",
+      "file": "tests/test_contracts.py",
+      "byte_identical": true,
+      "sha256": "90f42abfb250e250b875eca9b46dfe0d364108bc2e2a9c77fd9e3910dbff5e1c"
+    },
+    {
+      "package": "mechanism",
+      "file": "tests/test_execution.py",
+      "byte_identical": true,
+      "sha256": "682ecddf13d3fd815c9a5ac6124021b996536fe035b405cbd9cf5c4c0f436896"
+    },
+    {
+      "package": "mechanism",
+      "file": "configs/environment.json",
+      "byte_identical": true,
+      "sha256": "35346abf02107c29cf830e0941337b6c2d1523a070e96be3fe7a9727bc182c0d"
+    },
+    {
+      "package": "mechanism",
+      "file": "configs/f_protocol.json",
+      "byte_identical": true,
+      "sha256": "3f1b5edd72391ebc155a6743dceab3e89be19057d539c77cb8266ca75670e532"
+    },
+    {
+      "package": "mechanism",
+      "file": "configs/judge.json",
+      "byte_identical": true,
+      "sha256": "27e16bab9cb5f99940b2d708db82842b92e4bb32053d0d6ae4084200b23203ce"
+    },
+    {
+      "package": "mechanism",
+      "file": "configs/judge_contract_identity.json",
+      "byte_identical": true,
+      "sha256": "11ba0d6f1d14b65a9b73a3aa272e792331df0c81b42de77a2752c931627aefe7"
+    },
+    {
+      "package": "mechanism",
+      "file": "configs/ported_modules.json",
+      "byte_identical": true,
+      "sha256": "42710395dab9084b03311afdb0fc2d4d288d0ad8f68fa542945698c392058c2c"
+    },
+    {
+      "package": "mechanism",
+      "file": "configs/reference_identity.json",
+      "byte_identical": true,
+      "sha256": "4d9e9edb086ce24def88ab0db526d1e4a9f3bd19906ebbe67b5bc6f197a8e489"
+    },
+    {
+      "package": "mechanism",
+      "file": "configs/source_coverage.json",
+      "byte_identical": true,
+      "sha256": "3b0c3c3de6b83880d5e232cabecc374b8907e63fc1d372480284852a5727e3da"
+    },
+    {
+      "package": "mechanism",
+      "file": "configs/target.json",
+      "byte_identical": true,
+      "sha256": "3379852faa6334bc8f6c3720c3edfae61a843fc4d97b5ef51b0581c6b1e045e8"
+    },
+    {
+      "package": "mechanism",
+      "file": "configs/tokenizer_files.json",
+      "byte_identical": true,
+      "sha256": "8ca830956988cd495000b7cf5b828648e73b869a9249664e5a667dd1363e78e4"
+    },
+    {
+      "package": "evaluation",
+      "file": "target/config.json",
+      "byte_identical": true,
+      "sha256": "ed9532e2ef2225832793d4a4054a445d5cf840bf2002ef2579464356e473c8d1"
+    },
+    {
+      "package": "evaluation",
+      "file": "target/configs/anthropic.json",
+      "byte_identical": true,
+      "sha256": "ac2b9b45bd6b593b14e33a48359ad2d8dd6adaa93b0ccdb8bee2e884f7123827"
+    },
+    {
+      "package": "evaluation",
+      "file": "target/configs/gemini.json",
+      "byte_identical": true,
+      "sha256": "9540a3d171c5d4237fe922382629ae647a8333da9ec1200def90121a655c3395"
+    },
+    {
+      "package": "evaluation",
+      "file": "target/settings.py",
+      "byte_identical": true,
+      "sha256": "f335b63c5078036777ffe70deb141f55dbcb76f403818b08fb97bf7a7dcf9b10"
+    },
+    {
+      "package": "evaluation",
+      "file": "judges/configs/gpt56_luna.json",
+      "byte_identical": true,
+      "sha256": "f964e7545acda3f0d7a92e05436b3c9eddca5f85606c4b95b161759c2846d7ed"
+    },
+    {
+      "package": "evaluation",
+      "file": "judges/legacy/strongreject/sr_judge_prompt.txt",
+      "byte_identical": true,
+      "sha256": "0a282b857e1e53ff6ec92c91eb960d2444806e2e4518f4a40232549b599963d0"
+    },
+    {
+      "package": "evaluation",
+      "file": "judges/legacy/strongreject/sr_judge_system.txt",
+      "byte_identical": true,
+      "sha256": "7919b6d41af2dc9f32797d96eaa952934dca0713c7f3f63ddc6c299db9857248"
+    },
+    {
+      "package": "evaluation",
+      "file": "judges/legacy/together/judge_prompt.txt",
+      "byte_identical": true,
+      "sha256": "1ec16eb14978d843b34d1b9527b5d94ce3edfb85e5133780a2694d51ab5a9292"
+    },
+    {
+      "package": "evaluation",
+      "file": "judges/suite/validation.py",
+      "byte_identical": true,
+      "sha256": "bf13c243397ee898d3f97241eed3428b84316b9e037d307a463a9da4ba7eea0a"
+    },
+    {
+      "package": "evaluation",
+      "file": "judges/suite/report.py",
+      "byte_identical": true,
+      "sha256": "473ff80c314d8041aa8dc59556e81bc9da5acd2e2c25515c1a52da90f8cd8930"
+    },
+    {
+      "package": "evaluation",
+      "file": "judges/suite/diagnostics.py",
+      "byte_identical": true,
+      "sha256": "ff0f0c7550d64a3e7024f2a76d5e5a764292d3bbfc51b4f2626e9da3755a00fa"
+    }
+  ],
+  "evaluation_function_checks": [
+    {
+      "file": "target/engine.py",
+      "symbol": "payload_for",
+      "ast_identical": true
+    },
+    {
+      "file": "target/engine.py",
+      "symbol": "canonical_context",
+      "ast_identical": true
+    },
+    {
+      "file": "target/engine.py",
+      "symbol": "classify_openai",
+      "ast_identical": true
+    },
+    {
+      "file": "target/engine.py",
+      "symbol": "classify",
+      "ast_identical": true
+    },
+    {
+      "file": "target/engine.py",
+      "symbol": "run_pending",
+      "ast_identical": true
+    },
+    {
+      "file": "target/engine.py",
+      "symbol": "retry_delay",
+      "ast_identical": true
+    },
+    {
+      "file": "judges/legacy/harmbench/judge_harmbench_hf.py",
+      "symbol": "make_task",
+      "ast_identical": true
+    },
+    {
+      "file": "judges/legacy/harmbench/judge_harmbench_hf.py",
+      "symbol": "payload_for",
+      "ast_identical": true
+    },
+    {
+      "file": "judges/legacy/harmbench/judge_harmbench_hf.py",
+      "symbol": "judge_one",
+      "ast_identical": true
+    },
+    {
+      "file": "judges/legacy/strongreject/judge_llama3_70b_strongreject.py",
+      "symbol": "make_payload",
+      "ast_identical": true
+    },
+    {
+      "file": "judges/legacy/strongreject/judge_llama3_70b_strongreject.py",
+      "symbol": "interpret",
+      "ast_identical": true
+    },
+    {
+      "file": "judges/legacy/together/judge_together.py",
+      "symbol": "make_payload",
+      "ast_identical": true
+    },
+    {
+      "file": "judges/legacy/together/judge_together.py",
+      "symbol": "parse_label",
+      "ast_identical": true
+    },
+    {
+      "file": "judges/legacy/together/judge_together.py",
+      "symbol": "interpret",
+      "ast_identical": true
+    },
+    {
+      "file": "judges/suite/adapters.py",
+      "symbol": "Adapter",
+      "ast_identical": true
+    },
+    {
+      "file": "judges/suite/adapters.py",
+      "symbol": "definitions",
+      "ast_identical": true
+    }
+  ],
+  "mechanism_engine_changes": "version constant only; all other existing Python files byte-identical",
+  "provider_change": "User-Agent version only",
+  "input_and_smoke_intentionally_changed": true,
+  "model_settings_judge_rubrics_and_statistics_preserved": true,
+  "gpu_or_api_executed": false
+}

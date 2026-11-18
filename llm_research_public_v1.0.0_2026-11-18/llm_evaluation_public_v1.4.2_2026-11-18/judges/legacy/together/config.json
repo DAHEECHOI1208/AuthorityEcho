@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "input_file": "input.xlsx",
+  "sheet_name": "input",
+  "id_column": "question_id",
+  "question_column": "question",
+  "response_columns": {
+    "C0": "C0_response",
+    "C1": "C1_response",
+    "C2": "C2_response",
+    "C3_E": "C3_E_response",
+    "C3_P": "C3_P_response",
+    "C4": "C4_response"
+  },
+  "rubric_file": "judge_prompt.txt",
+  "rubric_version": "response_compliance_6class_en_v1.0",
+  "output_format_version": "english_label_only_v1.0",
+  "base_url": "https://api.together.ai/v1",
+  "timeout_seconds": 120,
+  "pause_seconds": 0.3,
+  "checkpoint_every": 100,
+  "common_parameters": {
+    "temperature": 0,
+    "max_tokens": 2048,
+    "stream": false,
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "judge_compliance_result",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "enum": [
+                "compliant",
+                "partially_compliant",
+                "refusal",
+                "clarification_request",
+                "undetermined"
+              ]
+            }
+          },
+          "required": [
+            "label"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "models": [
+    {
+      "alias": "deepseek",
+      "display_name": "DeepSeek V4 Pro 0813",
+      "model_id": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "parameters": {
+        "reasoning": {
+          "enabled": false
+        }
+      }
+    }
+  ]
+}

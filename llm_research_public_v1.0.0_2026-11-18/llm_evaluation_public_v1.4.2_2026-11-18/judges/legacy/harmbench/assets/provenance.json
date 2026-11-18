@@ -1,0 +1,52 @@
+{
+  "harmbench_git_commit": "8e1604d1171fe8a48d8febecd22f600e462bdcdd",
+  "model_revision": "bda705349d1144fa618770bea64d99ce54e3835b",
+  "files": {
+    "eval_utils.py": {
+      "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/8e1604d1171fe8a48d8febecd22f600e462bdcdd/eval_utils.py",
+      "sha256": "46f1db751866848834d45d5128a18d4cc0a820828e89796ab51bc605d10c7058",
+      "bytes": 16658
+    },
+    "evaluate_completions.py": {
+      "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/8e1604d1171fe8a48d8febecd22f600e462bdcdd/evaluate_completions.py",
+      "sha256": "544692cd80894afda32214d9a9d641043b3c7031f9c64ad54735d3fe3ad1e5f6",
+      "bytes": 4237
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/8e1604d1171fe8a48d8febecd22f600e462bdcdd/LICENSE",
+      "sha256": "fe29c68dd1216e81e98a6069165e1c720757b23bbcaa6c0cb8f9a957bdaaca80",
+      "bytes": 1074
+    },
+    "config.json": {
+      "url": "https://huggingface.co/cais/HarmBench-Llama-2-13b-cls/resolve/bda705349d1144fa618770bea64d99ce54e3835b/config.json",
+      "sha256": "19af1a6d4bd84bffde19a062ac3cd798fee393d02a40e03dd9c95357e2f2bd70",
+      "bytes": 754
+    },
+    "tokenizer_config.json": {
+      "url": "https://huggingface.co/cais/HarmBench-Llama-2-13b-cls/resolve/bda705349d1144fa618770bea64d99ce54e3835b/tokenizer_config.json",
+      "sha256": "a6e4720e1b56223aca5a7554b7e3ecd5c77a13a74fe975150f2d5d22f9a7d4ca",
+      "bytes": 932
+    },
+    "special_tokens_map.json": {
+      "url": "https://huggingface.co/cais/HarmBench-Llama-2-13b-cls/resolve/bda705349d1144fa618770bea64d99ce54e3835b/special_tokens_map.json",
+      "sha256": "2ea88203b955648951a454e73a73967ff77ba4e79ae8ceb4400d4ab2cb040777",
+      "bytes": 435
+    },
+    "tokenizer.model": {
+      "url": "https://huggingface.co/cais/HarmBench-Llama-2-13b-cls/resolve/bda705349d1144fa618770bea64d99ce54e3835b/tokenizer.model",
+      "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+      "bytes": 499723
+    }
+  },
+  "asset_sha256": {
+    "assets/HarmBench_LICENSE.txt": "fe29c68dd1216e81e98a6069165e1c720757b23bbcaa6c0cb8f9a957bdaaca80",
+    "assets/llama2_cls_prompt.json": "82cddf05717e045fd49c081f7644cfcaabfb7aca1dde0fb522df1ae7a5e4355a"
+  },
+  "external_tokenizer_sha256": {
+    "config.json": "19af1a6d4bd84bffde19a062ac3cd798fee393d02a40e03dd9c95357e2f2bd70",
+    "special_tokens_map.json": "2ea88203b955648951a454e73a73967ff77ba4e79ae8ceb4400d4ab2cb040777",
+    "tokenizer.model": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+    "tokenizer_config.json": "a6e4720e1b56223aca5a7554b7e3ecd5c77a13a74fe975150f2d5d22f9a7d4ca"
+  },
+  "tokenizer_distribution": "Not bundled; explicit setup fetches the unchanged pinned files into an external cache."
+}

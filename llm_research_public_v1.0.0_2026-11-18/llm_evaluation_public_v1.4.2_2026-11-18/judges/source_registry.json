@@ -1,0 +1,37 @@
+{
+  "harmbench": {
+    "files": {
+      "legacy/harmbench/assets/HarmBench_LICENSE.txt": "fe29c68dd1216e81e98a6069165e1c720757b23bbcaa6c0cb8f9a957bdaaca80",
+      "legacy/harmbench/assets/llama2_cls_prompt.json": "82cddf05717e045fd49c081f7644cfcaabfb7aca1dde0fb522df1ae7a5e4355a",
+      "legacy/harmbench/assets/provenance.json": "46bb0e7cacd396de2ba6cf72fc3938d0ff47d52fc5e02fd644bc4b0e86d586b9",
+      "legacy/harmbench/config.json": "80b6fdec94ad23bb87f06df4e194827e818653207e08eb89140da48c13628d29",
+      "legacy/harmbench/config_full.json": "64446b70eb92257704167b7eea43e5380ab172e17e858b2254768ecc647168a7",
+      "legacy/harmbench/judge_harmbench_hf.py": "130ce7591b45015f59145ceaeef9d14ae005b0ab893d9eb8e8eb4dab1340acc7",
+      "legacy/harmbench/requirements.txt": "238fcc2ac740d33c17ae0de7b9307d0ceb591d908bf594deb659e5a038ecb44b",
+      "legacy/harmbench/tokenizer_assets.py": "fe075822d999b59b14d8769a4614cbbfdd9f38e437d8de71ab8551f2a1386949"
+    }
+  },
+  "harmbench_full": {
+    "files": {
+      "legacy/harmbench_full/judge_harmbench_full.py": "3bcf89eb90a5798c585cf790aebfd0e0c70eff896743fa3a16250468634131a8"
+    }
+  },
+  "strongreject": {
+    "files": {
+      "legacy/strongreject/assets/StrongREJECT_LICENSE.txt": "bf21192441d08cf7a24eb55746a0f4d557a1ae3736b475bf3b7e5e8f04a56262",
+      "legacy/strongreject/config.json": "8302f5f937a87b28118958ea57e5eb5f0f039d3732b933bb4e15305817e16d05",
+      "legacy/strongreject/judge_llama3_70b_strongreject.py": "558416aa3cc7f843b709f68369d1ce1c7906bf1efd6d4fe17f56f4bfaa66f42d",
+      "legacy/strongreject/requirements.txt": "06d28d69e958deafb09f0a44fcae9b548f15e4debc14ebc39aad5f0934856fbf",
+      "legacy/strongreject/sr_judge_prompt.txt": "0a282b857e1e53ff6ec92c91eb960d2444806e2e4518f4a40232549b599963d0",
+      "legacy/strongreject/sr_judge_system.txt": "7919b6d41af2dc9f32797d96eaa952934dca0713c7f3f63ddc6c299db9857248"
+    }
+  },
+  "together": {
+    "files": {
+      "legacy/together/config.json": "4db736d3d3d419a203335b55258211274a0bb6b00371636f378ece364d156dde",
+      "legacy/together/judge_prompt.txt": "1ec16eb14978d843b34d1b9527b5d94ce3edfb85e5133780a2694d51ab5a9292",
+      "legacy/together/judge_together.py": "166ebb8ddc5ba8e9a44ae45349180465531a94f8052f5be6cc9e244059d30e22",
+      "legacy/together/requirements.txt": "06d28d69e958deafb09f0a44fcae9b548f15e4debc14ebc39aad5f0934856fbf"
+    }
+  }
+}
