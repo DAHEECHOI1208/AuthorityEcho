@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "tested_at_utc": "2026-11-17T20:02:15.023248+00:00",
+  "tests_run": 60,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "elapsed_seconds": 44.155,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scikit_learn": "1.8.0",
+  "hardware_hook_test": "CPU tensor and model doubles only",
+  "native_tokenizer_test": "Deterministic test tokenizer only; real tokenizer validation not executed here and requires the provided RunPod smoke",
+  "gpu_inference_executed": false,
+  "judge_api_calls_executed": 0,
+  "original_research_results_recomputed": false,
+  "mock_results_are_not_scientific_results": true,
+  "log_sha256": "782dc34abe1ca00cc511bad11fd5350d2595ad9025145aadecbe21a1ec6a6231"
+}

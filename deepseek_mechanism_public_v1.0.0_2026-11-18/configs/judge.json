@@ -1,0 +1,12 @@
+{
+  "api_key_env": "RESEARCH_JUDGE_API_KEY",
+  "concurrency": 1,
+  "judge_id": "primary_judge_toolaware_v2",
+  "max_completion_tokens": 2048,
+  "max_transient_retries": 1,
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "none",
+  "temperature": 0,
+  "timeout_seconds": 120,
+  "url": "https://api.openai.com/v1/chat/completions"
+}

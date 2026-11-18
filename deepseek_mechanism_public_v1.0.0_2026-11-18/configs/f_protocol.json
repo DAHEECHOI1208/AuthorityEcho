@@ -1,0 +1,74 @@
+{
+  "main_conditions": [
+    "C2",
+    "C3-E",
+    "C3-P",
+    "C4"
+  ],
+  "aux_conditions": [
+    "C0",
+    "C1"
+  ],
+  "candidate_positions": [
+    "t_C",
+    "t_A"
+  ],
+  "aux_positions": [
+    "t_U",
+    "t_D"
+  ],
+  "layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "score": "cos(h,mu_HR)-cos(h,mu_BA)",
+  "sign": "positive_toward_HR",
+  "center_weights": "repeat_mean_then_equal_parent_within_condition_then_equal_four_conditions",
+  "bootstrap_repeats": 2000,
+  "bootstrap_seed": 20261023,
+  "bootstrap_unit": "shared_component_id",
+  "bootstrap_refit_centers": true,
+  "selection_tie_tolerance": 0.005,
+  "selection_tie_order": [
+    "t_C",
+    "lower_layer"
+  ],
+  "fit_min_parents_each_center": 30,
+  "select_check_min_parents_each_group": 20,
+  "per_condition_min_parents_each_class": 10,
+  "component_warning_group": 4,
+  "component_warning_condition": 3,
+  "minimum_valid_bootstrap_fraction": 0.95,
+  "auroc_min": 0.75,
+  "ci_lower_min": 0.6,
+  "ci_width_max": 0.25,
+  "partial_compliance_included_primary": true,
+  "full_only_sensitivity": true,
+  "check_once": true,
+  "criteria_status": "adopted_exploratory_operational_not_power_guarantee"
+}

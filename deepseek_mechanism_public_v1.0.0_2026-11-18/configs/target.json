@@ -1,0 +1,26 @@
+{
+  "backend": "huggingface",
+  "device_map": {
+    "": "cuda:0"
+  },
+  "dtype": "bfloat16",
+  "extraction_mode": "native",
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 4096,
+    "repetition_penalty": 1.0
+  },
+  "hook_location": "block_output",
+  "layers_path": "model.layers",
+  "max_input_tokens": 2048,
+  "model_id": "deepseek-ai/DeepSeek-V2-Lite-Chat",
+  "quantization": "none",
+  "revision": "85864749cd611b4353ce1decdb286193298f64c7",
+  "seed": 42,
+  "tokenizer_revision": "85864749cd611b4353ce1decdb286193298f64c7",
+  "tool_arguments_format": "object",
+  "final_answer_policy": "post_retrieval_final_answer_v1",
+  "serialization_adapter": "deepseek-v2-lite-explicit-tool-history-v1",
+  "attention_implementation": "sdpa",
+  "attention_scale_policy": "deepseek-v2-yarn-mscale-v1"
+}

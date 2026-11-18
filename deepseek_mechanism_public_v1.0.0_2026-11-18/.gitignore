@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+runs/
+private/
+model-cache/
+*.npz
+*.npy
+*.tar
+*.tar.gz
+.env
+*.pem

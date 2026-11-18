@@ -1,0 +1,12 @@
+{
+  "model_id": "deepseek-ai/DeepSeek-V2-Lite-Chat",
+  "revision": "85864749cd611b4353ce1decdb286193298f64c7",
+  "source": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite-Chat/tree/85864749cd611b4353ce1decdb286193298f64c7",
+  "files": {
+    "LICENSE": "ccfee4895df06bcab524151c278e8dde88bbe76165a24ecbcbcf9fafd71fd2b3",
+    "config.json": "f346286b0f1c8b044252fd54cb4fa78b9fab6472a6e8bebb9edfe03d414ea03d",
+    "generation_config.json": "63ec07f6cb36bd8359b44f671123518dd6fbf55007e0c74aa96c296a75def8b5",
+    "tokenizer.json": "41f3bf64213da8c012d8bd0871a58a1fdf70463e8f08f110ddbb1082f529f669",
+    "tokenizer_config.json": "31181eaf79394ea26728d95ecb54fe7c8413e6f56085dbabc8b0818134380ec8"
+  }
+}

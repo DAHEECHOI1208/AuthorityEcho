@@ -1,0 +1,394 @@
+[
+  {
+    "source_id": "S01",
+    "feature": "Pinned r12 target, final-answer transport, native extraction",
+    "modules": "native/*; runtime.py",
+    "implementation_scope": "Direct native ports; GPU smoke required",
+    "source_archive_or_file_sha256": "a9c02b0af702ebdc1bd9b55f381905ac6ded7aca0d369759018f2d5e82370afe",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S02",
+    "feature": "Reference numerical warning policy",
+    "modules": "diagnostics.py",
+    "implementation_scope": "Diagnostic only; no threshold relaxation",
+    "source_archive_or_file_sha256": "4528f090dca70dab5891d0ebdecccb951c8c8608b0ba97f40611e6cdf3b2307b",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S03",
+    "feature": "Paired harmful/benign groups and H/R validation",
+    "modules": "judging.py; representation.py; validation_base.py",
+    "implementation_scope": "Private paired corpus and preserved split metadata required",
+    "source_archive_or_file_sha256": "cdf7c75a40ed2670a9155d591fd379608dc9ffbad7dda6c2ee8630f1ed4e8646",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S04",
+    "feature": "Missing secondary judgment handling",
+    "modules": "judging.py",
+    "implementation_scope": "Missing judgments are unknown, never refusal",
+    "source_archive_or_file_sha256": "024a6659b99237762385127c5d1e4152ab3e3097350386f8df07950d4407895b",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S05",
+    "feature": "Conditional H_A and R_H selection",
+    "modules": "representation.py",
+    "implementation_scope": "Original fixed score and tie rule; exploratory",
+    "source_archive_or_file_sha256": "ffe33395de4473844732b9bea9afa00dd397e532e3dec63058727f304bdbdc8e",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S06",
+    "feature": "Condition/behavior/representation linkage",
+    "modules": "representation.py",
+    "implementation_scope": "Saved-score paired linkage",
+    "source_archive_or_file_sha256": "ecf44390709b9243786196da13246edd73f59b152165100801ee5ffa5eb592e2",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S07",
+    "feature": "C0 baseline score changes",
+    "modules": "readouts.py; representation.py",
+    "implementation_scope": "Common cohorts and separate behavioral denominators",
+    "source_archive_or_file_sha256": "b504a3a15abc2bd3aae835f489133d2a83777879fc201bf1ed53b6430eaebbf3",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S08",
+    "feature": "Full corpus with fixed centers",
+    "modules": "scoring.py; readouts.py",
+    "implementation_scope": "No center refit unless explicitly requested",
+    "source_archive_or_file_sha256": "1eefc7dec3a33a4e425bece523abb80c934867607b593d5b0079d0921df5e34b",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S09",
+    "feature": "Full corpus center refit and reselection",
+    "modules": "joint_bootstrap.py; representation.py",
+    "implementation_scope": "Original joint fit/evaluate draws; apparent performance only",
+    "source_archive_or_file_sha256": "c5dce110a3005e6b3c7409cb3a7c4000727c87984419a008215cff8c7d03b951",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S10",
+    "feature": "Refitted center linkage",
+    "modules": "representation.py; readouts.py",
+    "implementation_scope": "Pass explicitly refitted score ledger",
+    "source_archive_or_file_sha256": "0ba320876b83f649125e847b61f4f2e55623195657289bfc1cbe2be9bc96f782",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S11",
+    "feature": "Fit-only HA center",
+    "modules": "scoring.py",
+    "implementation_scope": "Equal-parent/equal-condition raw centers",
+    "source_archive_or_file_sha256": "e2ce67600d762b7d625d4811a00ec77e7d26c24968dc050e14f9d486dd64c277",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S12",
+    "feature": "Full-corpus HA center",
+    "modules": "scoring.py",
+    "implementation_scope": "Explicit full500 scope; not independent validation",
+    "source_archive_or_file_sha256": "b06fc185b83da405b3ecb09b8d74146c38b68efe09c06cb2b489f293efab10a1",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S13",
+    "feature": "C0/C1 readouts under two center banks",
+    "modules": "scoring.py; readouts.py",
+    "implementation_scope": "Run each frozen bank separately",
+    "source_archive_or_file_sha256": "629f53196b71f530686216f60e457daab5dbf4d67783bead76f64535d09399ff",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S14",
+    "feature": "HA score C0 contrasts",
+    "modules": "representation.py",
+    "implementation_scope": "a=cos(HA)-cos(BA)",
+    "source_archive_or_file_sha256": "5c1199eff8b82422cc7d593ce2eb8f13913813e003a95099d71d92309dff47d7",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S15",
+    "feature": "C0 controls, additivity and benign reference",
+    "modules": "readouts.py",
+    "implementation_scope": "Same-parent common cohorts; no causal mediation claim",
+    "source_archive_or_file_sha256": "e33c180821866294c8e4ea233b91e788e9fad343cbd52903a1a5ed9a6fa0e43a",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S16",
+    "feature": "All-layer g",
+    "modules": "scoring.py; readouts.py",
+    "implementation_scope": "27 actual block outputs",
+    "source_archive_or_file_sha256": "78848ff0868faf25769642a3d96630f4a9286b25c6d077638e4e49a36fb886c2",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S17",
+    "feature": "All-position g",
+    "modules": "scoring.py; readouts.py",
+    "implementation_scope": "Actual t_U/t_D/t_C/t_A; no invented missing positions",
+    "source_archive_or_file_sha256": "5d8fb0f104ab043024be97de5b945c0d421a9395c4ffb7c28432b15d3ad0c86c",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S18",
+    "feature": "Adjusted common/benign regression",
+    "modules": "regression.py; regression_base.py",
+    "implementation_scope": "Original estimators, fold-only scaling, component holdouts and simultaneous bands",
+    "source_archive_or_file_sha256": "82c0e9f5f3fb204ef1ae949164e549d3cb4a0147bf45d2f7360f6d30beff6b2d",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S19",
+    "feature": "C0 one-component restoration",
+    "modules": "geometry.py; hooks.py; interventions.py",
+    "implementation_scope": "Separate 16/20 t_A; optional explicitly evidenced historical cohort",
+    "source_archive_or_file_sha256": "23c1e172d8db82388e4007020d1629381d7cf53bfd7527778537ecf5249c0c4d",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S20",
+    "feature": "Fresh C0 audit and fresh RA",
+    "modules": "interventions.py; analysis.py",
+    "implementation_scope": "Baseline-only immutable membership",
+    "source_archive_or_file_sha256": "4e64c88a6e8f71404fdd92a63b32e571ea3583decfa2d3aaf30a805a01cbe0e5",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S21",
+    "feature": "Restore-to-fresh-analysis orchestration",
+    "modules": "cli.py",
+    "implementation_scope": "One entry point; stage journals and resume",
+    "source_archive_or_file_sha256": "3addeb0774295db29a28b4556d121f9af1abcf26d3e95e4873ca911881afd06c",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S22",
+    "feature": "Multi-set fresh RA and dual confidence intervals",
+    "modules": "inputs.py; analysis.py",
+    "implementation_scope": "Set IDs preserved; sets not pooled; pointwise and corrected intervals separate",
+    "source_archive_or_file_sha256": "57e0dbea7115e437280d2955ec281e6b9ef46fc9b1b1e3ebe483284c24021f38",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S23",
+    "feature": "Replaceable question input with resume integrity",
+    "modules": "inputs.py; io.py",
+    "implementation_scope": "No whitelist of old input file hashes; hash frozen at prepare",
+    "source_archive_or_file_sha256": "477f8bd50f4f4c5abd7e807b4a01b185a9440fe2eb37e0d06cc2129c63d70664",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S24",
+    "feature": "Strength and common HR reference",
+    "modules": "geometry.py; analysis.py; judging.py",
+    "implementation_scope": "16 layer alpha 1.5 primary, 2 secondary; contemporary rejudging batch",
+    "source_archive_or_file_sha256": "b38a8767bae0ff997a125476d90e35380124293eed762c51df3817598a462ea2",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S25",
+    "feature": "Whole-vector C0 replacement",
+    "modules": "geometry.py; hooks.py; interventions.py",
+    "implementation_scope": "Own C0 donor; actual BF16 equality; no projection or normalization",
+    "source_archive_or_file_sha256": "6130a0fd8d8733a33067333653ef1eda76f83385b2526b26bfa02036580a396f",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S26",
+    "feature": "C3/C4 probes and surface controls",
+    "modules": "probes.py",
+    "implementation_scope": "Fit-only direct/shared/orthogonal probes; frozen surface controls",
+    "source_archive_or_file_sha256": "3e423c22a9e5564b2a4b1381b432ff1c66f76cd7bcb5865fce3eba872391cbee",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S27",
+    "feature": "Entity/purpose A/B cross inputs",
+    "modules": "inputs.py; readouts.py",
+    "implementation_scope": "Explicit B personas required; no persona fabrication",
+    "source_archive_or_file_sha256": "65680aec4c7995269e5924c58f7c1d46ce1a3b12f97693bea4d030787a3dece2",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S28",
+    "feature": "Additional cross contrasts",
+    "modules": "readouts.py",
+    "implementation_scope": "Aligned/misaligned and difference-in-differences",
+    "source_archive_or_file_sha256": "ee789e3df51fd73bab6974604f6206d9bff752b62d565a7a76657c5bb11d3526",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S29",
+    "feature": "Cross representation contrasts",
+    "modules": "readouts.py",
+    "implementation_scope": "Original cluster weighting for cross comparisons",
+    "source_archive_or_file_sha256": "6e8fa1cae535d72fb3601b5da6cef063d6180bd72ab78510dc3098334d8e0c76",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S30",
+    "feature": "Cross behavioral transitions",
+    "modules": "readouts.py; analysis.py",
+    "implementation_scope": "Explicit R/A only; same parents across A/B",
+    "source_archive_or_file_sha256": "90a07d622ff120b88745657bd7f7c9c94555838d8a837b412c8d8ba34f157190",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S31",
+    "feature": "Purpose layer12 restoration",
+    "modules": "interventions.py; alignment_statistics.py; alignment_report.py",
+    "implementation_scope": "Original shared direction, A/B donors, follow-up layers12-16 and original report functions",
+    "source_archive_or_file_sha256": "83b133f2f16b7de79e18958e312547d212b9af6e792ae40fd571883c2f78bee6",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S32",
+    "feature": "Matched external benign question inputs",
+    "modules": "inputs.py",
+    "implementation_scope": "Private pre-matched corpus accepted; benchmark text not bundled or regenerated",
+    "source_archive_or_file_sha256": "326d5b4c50f1a4fcb11a171c3eb4d5cfb689a21a6db4c3e5217bc7478f734518",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S33",
+    "feature": "Human audit import/report",
+    "modules": "operations.py",
+    "implementation_scope": "No human label automatically treated as ground truth; no historical overwrite",
+    "source_archive_or_file_sha256": "bb331cb75cd4290ffe8aa05f41d65001d0b723167a8febf17daa169c6becd0ac",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S34",
+    "feature": "Historical probe exception",
+    "modules": "gates.py",
+    "implementation_scope": "Old one-off waiver deliberately not transferred; new run must pass its own mechanical gates",
+    "source_archive_or_file_sha256": "99711f7de64a0cd233da4105e42474b0b899dd4d0df5f0c8a7d4cb32da6fd6d7",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S35",
+    "feature": "Repeat diagnostic",
+    "modules": "diagnostics.py",
+    "implementation_scope": "Optional GPU same-input repeat; no universal determinism claim",
+    "source_archive_or_file_sha256": "90bb8ee2f48dc4854ceaae1ae1e3722933b186f3bd4d552aa5ef401f3bdf53b2",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S36",
+    "feature": "Layer-zero trace",
+    "modules": "diagnostics.py",
+    "implementation_scope": "Optional module-level t_U trace",
+    "source_archive_or_file_sha256": "772fa75752662ab4dbd299875cab8eaf42bebc3c0d399399eb645c7138a0111c",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S37",
+    "feature": "Length sensitivity",
+    "modules": "diagnostics.py",
+    "implementation_scope": "Optional same-input o_proj length variation",
+    "source_archive_or_file_sha256": "87ae579e27d0c72e65b52edc7a95b0f081fc3ad1ef2b4e93699731bd6cc7de61",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S38",
+    "feature": "Isolated o_proj diagnostic",
+    "modules": "diagnostics.py",
+    "implementation_scope": "Prefix values held fixed; changing matrix shape recorded",
+    "source_archive_or_file_sha256": "53c3eea8bf10cb05f1411ae6da6a0e94a75741d92e51c5777cd99627acc61069",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S39",
+    "feature": "All-layer activation export",
+    "modules": "runtime.py; scoring.py",
+    "implementation_scope": "FP32 NPZ and identity-bound ledger",
+    "source_archive_or_file_sha256": "5b4866a28cc10dc02a77b86875caec1dcf68c889ff89d10d2fe74d93914fb8f0",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S40",
+    "feature": "Authentication failure recovery",
+    "modules": "operations.py; judge_transport.py",
+    "implementation_scope": "Archive failed journals; explicit bounded retry; stop on error",
+    "source_archive_or_file_sha256": "f2eb0388956abd6cd0312c17b2d04b7faf1498a445a885dae815ea534eb1d405",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S41",
+    "feature": "Center condition-family sensitivity",
+    "modules": "workflows.py",
+    "implementation_scope": "Four/five/six conditions, fixed layer evaluation",
+    "source_archive_or_file_sha256": "063055f58b5f664e8e45d29c11088219970b0bd7263b585d63a8a510452a3119",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S42",
+    "feature": "New-set center sensitivity",
+    "modules": "workflows.py",
+    "implementation_scope": "Separate set inputs; no cross-set pooling",
+    "source_archive_or_file_sha256": "87ddbfb21e59c50db992a39af6627dcba2e5c17aac721c34dca7209969d15e12",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S43",
+    "feature": "Benign alert audit",
+    "modules": "readouts.py",
+    "implementation_scope": "Benign alerts reported separately from refusal",
+    "source_archive_or_file_sha256": "ca8b703ebb24842c638253fe1929fd0877779afd6678dbf168bd65e95a768d61",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S44",
+    "feature": "Delta alert audit",
+    "modules": "readouts.py",
+    "implementation_scope": "Select-frozen delta-score threshold; check evaluation",
+    "source_archive_or_file_sha256": "ec894e489b8253cbc5376a0beb9ba0607a803efcc2a5413ddf4211f1c1666293",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S45",
+    "feature": "C4 score alert",
+    "modules": "readouts.py",
+    "implementation_scope": "Select-frozen C4 threshold and conservative ties",
+    "source_archive_or_file_sha256": "a0f022130ba9daa791b1edede0022c07a7d96d09eb3f73afa0aa6ae32eea869e",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S46",
+    "feature": "g readout audit",
+    "modules": "readouts.py; representation.py",
+    "implementation_scope": "Saved scores, class support and explicit unknowns",
+    "source_archive_or_file_sha256": "88815092cf460e61d02476b8f0db2821ec6238fa554564086b36e98d193aaeb7",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S47",
+    "feature": "Follow-up g and additional layer capture",
+    "modules": "hooks.py; scoring.py",
+    "implementation_scope": "All 27 layers retained, including layer15",
+    "source_archive_or_file_sha256": "4ed2766abe120db79cfa725f6b264652793b523cf08926cf8f65f01de95cc16a",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S48",
+    "feature": "Integrated alert/denominator audit",
+    "modules": "operations.py; readouts.py",
+    "implementation_scope": "Separate denominators and missingness; no efficacy auto-pass",
+    "source_archive_or_file_sha256": "6ed87da6a38904cf2bd420c7027e8e98453563ea9293cc4b1e7073ecae25475c",
+    "historical_result_bytes_included": false
+  },
+  {
+    "source_id": "S49",
+    "feature": "Raw NPZ provenance audit",
+    "modules": "operations.py; imports.py",
+    "implementation_scope": "Hash, axes, dtype, finite/missing vectors and identity-indexed legacy cache",
+    "source_archive_or_file_sha256": "e8ff5f60c2f50d077ea820ea85a8c2702205580873e59fb270968e2f1ea9dade",
+    "historical_result_bytes_included": false
+  }
+]

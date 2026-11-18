@@ -1,0 +1,72 @@
+[
+  {
+    "module": "mechanism/native/A04_runtime.py",
+    "source_sha256": "f653d80ea25964679f8c035eaafe3d559a22f07dd7f5a1a82f7ff52d73ad08f3",
+    "port_method": "AST-selected definitions; imports relocated; comments removed; no data bundled"
+  },
+  {
+    "module": "mechanism/native/B10_datasets.py",
+    "source_sha256": "86027da11b5be7534041f47d34bdb447ac29e0d28b0eaaee2025f2bfedd894d1",
+    "port_method": "AST-selected definitions; imports relocated; comments removed; no data bundled"
+  },
+  {
+    "module": "mechanism/native/P17_final_answer.py",
+    "source_sha256": "095f8c3b416c75f315f59ab5cd746a9b47dea288017ca92decfc3fe1a5a9a025",
+    "port_method": "AST-selected definitions; imports relocated; comments removed; no data bundled"
+  },
+  {
+    "module": "mechanism/native/P19_deepseek.py",
+    "source_sha256": "d31dc74301950a9459990178aaaa4cc581f30c9142d657f4122f752cc187952c",
+    "port_method": "AST-selected definitions; imports relocated; comments removed; no data bundled"
+  },
+  {
+    "module": "mechanism/native/P21_deepseek_numeric.py",
+    "source_sha256": "942e7628d54779bd99761ff20b7f76741c1f5c4643d848da0ade1ebb7f79edb6",
+    "port_method": "AST-selected definitions; imports relocated; comments removed; no data bundled"
+  },
+  {
+    "module": "mechanism/native/F10_activations.py",
+    "source_sha256": "70e10de95762b7ab5eedb2b8976ff0f45b94c93e4d3a915f13380170e2c8d776",
+    "port_method": "AST-selected definitions; imports relocated; comments removed; no data bundled"
+  },
+  {
+    "module": "mechanism/native/C10_model.py",
+    "source_sha256": "a28ca1f0f60e813cc7a56acbba96fa00bd311db2c3aae9d034d74d49824a8b46",
+    "port_method": "AST-selected definitions; imports relocated; comments removed; no data bundled"
+  },
+  {
+    "module": "mechanism/native/C16_backend.py",
+    "source_sha256": "b641efca62b763ec018b0a4d3ef02e0edf7c600bd23c5d7959c51c0b20d17c82",
+    "port_method": "AST-selected definitions; imports relocated; comments removed; no data bundled"
+  },
+  {
+    "module": "mechanism/native/C11_hooks.py",
+    "source_sha256": "a1a5e1d3d68671595007005581bd99b2447b731ff0810fd3afd3ace19c27d6e1",
+    "port_method": "AST-selected definitions; imports relocated; comments removed; no data bundled"
+  },
+  {
+    "module": "mechanism/native/C14_ab_capture.py",
+    "source_sha256": "59b9b46ace9022e5caa119eb8007c4ecabe27b24f36355311ab6fe643bbe346b",
+    "port_method": "AST-selected definitions; imports relocated; comments removed; no data bundled"
+  },
+  {
+    "module": "mechanism/geometry_base.py",
+    "source_sha256": "d2d90b3e0d7727fce192a8d6abaaf55c4d5f6d3e1e952f0777af144cfdb611bb",
+    "port_method": "AST-selected definitions; imports relocated; comments removed; no data bundled"
+  },
+  {
+    "module": "mechanism/statistics_base.py",
+    "source_sha256": "57c5d6c2b25edf8ebf9af6311ba7f5a6536412c0e61a5f27053f20117e5f8a9a",
+    "port_method": "AST-selected definitions; imports relocated; comments removed; no data bundled"
+  },
+  {
+    "module": "mechanism/output_audit.py",
+    "source_sha256": "3a31a761cdecb2caee5b5853c110212ca809e4510a9723911cf74c9fa3f21012",
+    "port_method": "AST-selected definitions; imports relocated; comments removed; no data bundled"
+  },
+  {
+    "module": "mechanism/validation_base.py",
+    "source_sha256": "6826857aa17f59afea27649f0fb4ad0c79422c823c12ca07fb95c00045cec4d3",
+    "port_method": "AST-selected definitions; imports relocated; comments removed; no data bundled"
+  }
+]

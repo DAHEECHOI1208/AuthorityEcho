@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "files_scanned": 69,
+  "checks": [
+    "hangul",
+    "private_paths_or_file_links",
+    "known_personal_or_host_identifiers",
+    "credential_literal_patterns"
+  ],
+  "python_decoded_string_literals_checked": true,
+  "json_decoded_strings_checked": true,
+  "findings": [],
+  "historical_corpus_or_results_bundled": false,
+  "research_documents_bundled": false,
+  "private_rubric_bundled": false,
+  "approved_input_byte_identity": "c11bf9f91f7b3d9699c3f5346cdd4008ef395bd44bbe46b58cdf08908bb72642",
+  "third_party_legal_attribution_retained": true,
+  "scope": "Static content audit of this distribution, not a proof against every possible identity inference."
+}
